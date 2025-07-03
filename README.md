@@ -9,12 +9,14 @@ Spots is a simple, interactive social media web app where users can:
 - Like and unlike other users' photos
 - Edit their profile details
 
+This project introduces me to a new skill to make a interface responsive , where your webpage adapts to different screen sizes. I use tools like CSS Grid, media queries, and other techniques to create a layout that looks great on desktop, tablet, and mobile devices.
+
 ![Web Image](/vendor/Spots%20App.png)
 ![Mobile Web Image](/vendor/Spots%20App%20Mobile%20Version.png)
 
-The interface is responsive and adjusts seamlessly across desktop, tablet, and mobile screen sizes.
-
 ## Live Demo
+
+\*[Link to file](https://github.com/IAM0312/se_project_spots.git)
 
 ## Features
 
@@ -33,6 +35,8 @@ The interface is responsive and adjusts seamlessly across desktop, tablet, and m
   - Each card shows an image, title, and a like button
   - Like button toggles liked state and updates like count
 
+  ![Hover Effect](/vendor/hover%20effect.png)
+
 - **Responsive Design**
   - Mobile-first layout with media queries
   - Flexbox and CSS Grid used for fluid layouts
@@ -41,9 +45,6 @@ The interface is responsive and adjusts seamlessly across desktop, tablet, and m
 
 - **HTML5** for semantic structure
 - **CSS3** with Flexbox/Grid for layout and BEM naming convention
-- **JavaScript** for interactivity (upload, delete, like actions)
-- **Webpack** (or another bundler) for asset management — _if applicable_
-- **Node.js / Express** backend (optional) — _if applicable_
 - **Git** for version control
 - **BEM** methodology has been used for the files structure as well as for the HTML and CSS.
 
@@ -95,7 +96,7 @@ The interface is responsive and adjusts seamlessly across desktop, tablet, and m
 - **Authentication & User Accounts**: Add login, signup, and user sessions.
 - **Backend Integration**: Connect to a database (e.g., MongoDB, PostgreSQL) to persist data.
 - **Real-time Updates**: Implement WebSockets for live feed updates when new posts or likes occur.
-- **Image Optimization**: Lazy-load images and serve responsive image sizes.
+- **Image Optimization**: Add animation on image and serve responsive image sizes.
 - **Accessibility Enhancements**: Add ARIA roles and keyboard navigation support.
 
 ---

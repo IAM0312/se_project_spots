@@ -42,8 +42,6 @@ The interface is responsive and adjusts seamlessly across desktop, tablet, and m
 - **HTML5** for semantic structure
 - **CSS3** with Flexbox/Grid for layout and BEM naming convention
 - **JavaScript** for interactivity (upload, delete, like actions)
-- **Webpack** (or another bundler) for asset management — _if applicable_
-- **Node.js / Express** backend (optional) — _if applicable_
 - **Git** for version control
 - **BEM** methodology has been used for the files structure as well as for the HTML and CSS.
 

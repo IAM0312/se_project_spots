@@ -17,7 +17,7 @@
   font-size: 20px;
   color: #212121;
   margin: 0;
-  font-weight: 400;
+  line-height: 120%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -37,6 +37,13 @@
   cursor: pointer;
 }
 @media screen and (max-width: 627px) {
+  .card__title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 100%;
+    font-size: 16px;
+  }
   .card__image {
     height: 288px;
   }

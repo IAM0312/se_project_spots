@@ -60,3 +60,5 @@ The layout adapts seamlessly across desktop, tablet, and mobile screens using mo
 ## Live Demo
 
 View the live project on GitHub Pages: https://iam0312.github.io/se_project_spots/
+
+https://www.loom.com/share/800f38bb77574dc688adbc36de6db202?sid=2fb8650c-9407-4c4d-93dd-bae2cde98661

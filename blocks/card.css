@@ -33,6 +33,7 @@
   padding: 0;
 }
 .card__like-btn:hover {
+  transition: opacity linear 1s;
   opacity: 100%;
   cursor: pointer;
 }

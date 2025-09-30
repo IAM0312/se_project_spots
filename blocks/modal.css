@@ -4,6 +4,7 @@
   align-items: center;
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -47,12 +48,10 @@
   font-weight: 500;
   line-height: 100%;
   font-size: 32px;
-  width: 149px;
   margin: 0 0 32px;
   padding: 0;
 }
 .modal__form {
-  max-width: 730px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -68,13 +67,14 @@
 }
 .modal__input {
   display: block;
-  width: 730px;
+  width: 100%;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
   padding: 16px 0 16px 12px;
   font-weight: 500;
   border-radius: 8px;
   border-width: 1px;
-  margin: 0;
-  border-color: #212121;
+  margin: 8px 0 0;
   opacity: 40%;
 }
 .modal__input:hover {
@@ -83,8 +83,9 @@
   cursor: pointer;
 }
 .modal__input::placeholder {
-  color: #2121214d;
+  color: black;
 }
+
 .modal__save-btn {
   max-width: 156px;
   height: 52px;
@@ -94,22 +95,24 @@
   border-radius: 8px;
   color: #fcf5e5;
   background-color: #212121;
+  cursor: pointer;
 }
 @media screen and (max-width: 627px) {
   .modal__container {
     padding: 12px;
   }
   .modal__title {
+    font-weight: 500;
+    line-height: 100%;
+    font-size: 20px;
     padding: 10px 0 34px 0;
+    margin: 0;
   }
   .modal__exit-btn {
     top: 12px;
     right: 12px;
   }
-  .modal__form {
-  }
-  .modal__input {
-  }
+
   .modal__save-btn {
     max-width: none;
   }

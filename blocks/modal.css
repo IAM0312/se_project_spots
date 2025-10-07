@@ -65,6 +65,7 @@
   padding: 0;
   margin: 0 0 32px;
 }
+
 .modal__input {
   display: block;
   width: 100%;
@@ -75,15 +76,10 @@
   border-radius: 8px;
   border-width: 1px;
   margin: 8px 0 0;
-  opacity: 40%;
+  border-color: #21212166;
 }
 .modal__input:hover {
-  transition: opacity linear 1s;
-  opacity: 100%;
-  cursor: pointer;
-}
-.modal__input::placeholder {
-  color: black;
+  border-color: #000;
 }
 
 .modal__save-btn {

@@ -27,6 +27,7 @@
   background-color: white;
   padding: 32px 50px;
   position: relative;
+  box-sizing: border-box;
 }
 .modal__exit-btn {
   position: absolute;
@@ -39,6 +40,7 @@
   height: 40px;
   background: none;
   border: none;
+  cursor: pointer;
 }
 .modal__exit-btn::before {
   content: url(../images/close.svg);
@@ -75,6 +77,8 @@
   width: 100%;
   text-overflow: ellipsis;
   box-sizing: border-box;
+  font-size: 20px;
+  line-height: 1;
   padding: 16px 0 16px 12px;
   font-weight: 500;
   border-radius: 8px;
@@ -97,6 +101,11 @@
   background-color: #212121;
   cursor: pointer;
 }
+.modal__save-btn:hover {
+  transition: opacity linear 1s;
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 627px) {
   .modal__container {
     padding: 12px;
@@ -107,6 +116,9 @@
     font-size: 20px;
     padding: 10px 0 34px 0;
     margin: 0;
+  }
+  .modal__input {
+    font-size: 16px;
   }
   .modal__exit-btn {
     top: 12px;

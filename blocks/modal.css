@@ -29,6 +29,9 @@
   position: relative;
   box-sizing: border-box;
 }
+.modal__image-container {
+  position: relative;
+}
 .modal__exit-btn {
   position: absolute;
   top: 32px;
@@ -42,6 +45,13 @@
   border: none;
   cursor: pointer;
 }
+.modal__exit-btn_preview {
+  top: 0px;
+  right: -52.5px;
+  filter: invert(100%);
+  opacity: 100%;
+}
+
 .modal__exit-btn::before {
   content: url(../images/close.svg);
 }
@@ -49,6 +59,9 @@
   transition: opacity linear 1s;
   opacity: 100%;
   cursor: pointer;
+}
+.modal__exit-btn_preview:hover {
+  opacity: 40%;
 }
 .modal__title {
   font-weight: 500;
@@ -127,5 +140,9 @@
 
   .modal__save-btn {
     max-width: none;
+  }
+  .modal__exit-btn_preview {
+    top: -48px;
+    right: 0;
   }
 }

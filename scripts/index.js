@@ -46,8 +46,8 @@ const addCaptionInput = addModal.querySelector("#input-caption");
 
 const previewModal = document.querySelector("#preview-image-modal");
 const previewExitBtn = previewModal.querySelector(".modal__exit-btn_preview");
-const previewImageEl = previewModal.querySelector(".card__image-preview");
-const previewTitle = previewModal.querySelector(".card__title_preview");
+const previewImageEl = previewModal.querySelector(".modal__image");
+const previewTitle = previewModal.querySelector(".modal__caption");
 
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");

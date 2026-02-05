@@ -124,7 +124,7 @@
 .modal__caption {
   max-width: fit-content;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0;
   line-height: 120%;
   color: #ffffff;
@@ -171,8 +171,8 @@
     top: -48px;
     right: 0;
   }
-  .modal__preview {
-    padding: 0px;
+  .modal__type_preview {
+    padding: 0 16px;
   }
   .modal__image {
     max-width: unset;

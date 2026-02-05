@@ -124,7 +124,7 @@ function handleAddFormSubmit(evt) {
 
   const cardEl = getCardElement(inputValue);
   cardList.prepend(cardEl);
-
+  addFormElement.reset();
   closeModal(addModal);
 }
 

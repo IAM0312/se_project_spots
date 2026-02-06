@@ -15,6 +15,9 @@
   z-index: 10;
 }
 
+.modal__type_preview {
+  padding: 0 16px;
+}
 .modal_is-opened {
   visibility: visible;
   opacity: 1;
@@ -170,9 +173,6 @@
   .modal__exit-btn_preview {
     top: -48px;
     right: 0;
-  }
-  .modal__type_preview {
-    padding: 0 16px;
   }
   .modal__image {
     max-width: unset;

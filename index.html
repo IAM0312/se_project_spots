@@ -65,7 +65,11 @@
                 class="modal__input"
                 id="input-name"
                 placeholder="Type your name"
+                minlength="2"
+                maxlength="40"
+                required
               />
+              <span id="input-name-error" class="modal__error"></span>
             </label>
             <label for="input-description" class="modal__label"
               >Description
@@ -74,7 +78,11 @@
                 class="modal__input"
                 id="input-description"
                 placeholder="Describe yourself"
+                minlength="2"
+                maxlength="200"
+                required
               />
+              <span id="input-description-error" class="modal__error"></span>
             </label>
             <button type="submit" class="modal__save-btn">Save</button>
           </form>
@@ -88,12 +96,13 @@
             <label for="input-link" class="modal__label"
               >Image link
               <input
-                type="text"
+                type="url"
                 class="modal__input"
                 id="input-link"
                 placeholder="Paste a link to the picture"
                 required
               />
+              <span id="input-link-error" class="modal__error"></span>
             </label>
             <label for="input-caption" class="modal__label"
               >Caption
@@ -102,8 +111,11 @@
                 class="modal__input"
                 id="input-caption"
                 placeholder="Type your caption"
+                minlength="2"
+                maxlength="200"
                 required
               />
+              <span id="input-caption-error" class="modal__error"></span>
             </label>
             <button type="submit" class="modal__save-btn">Save</button>
           </form>
@@ -121,6 +133,7 @@
         </div>
       </div>
     </div>
+    <script src="./scripts/validation.js"></script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>

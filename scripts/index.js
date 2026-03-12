@@ -124,8 +124,6 @@ editExitBtn.addEventListener("click", function () {
 });
 
 addBtn.addEventListener("click", function () {
-  resetValidation(addFormElement, [addLinkInput, addCaptionInput], settings);
-  disabledButton(formSubmitBtn, settings);
   openModal(addModal);
 });
 addExitBtn.addEventListener("click", function () {
@@ -150,6 +148,7 @@ function handleAddFormSubmit(evt) {
   const cardEl = getCardElement(inputValue);
   cardList.prepend(cardEl);
   addFormElement.reset();
+  disabledButton(formSubmitBtn, settings);
   closeModal(addModal);
 }
 

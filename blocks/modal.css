@@ -108,7 +108,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
+.modal__error_visible {
+  visibility: visible;
+}
 .modal__save-btn {
   max-width: 156px;
   height: 52px;
